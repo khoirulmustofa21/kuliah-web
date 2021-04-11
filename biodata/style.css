@@ -1,0 +1,252 @@
+
+
+body{
+    background-image: url(http://designazure.com/wp-content/uploads/2018/05/ambient-background.png);
+    /*background-repeat: no-repeat;*/
+    background-size: 100%;
+  }
+h1{
+    text-align: center;
+    font-family: "Trirong", serif;
+    color: #E1E9F3;;
+}
+table, th, td{
+      border: 2px solid black;
+      border-collapse: collapse;
+}
+th, td{
+      padding: 15px;
+     text-align: left;
+     background-color: #E1E9F3;
+}
+td, p {
+  font-size: 19px;
+}
+th{
+  background-color: #A7CBF4 ;
+  text-align: center;
+}
+.kotak img{
+
+    width: 300px;
+       height: 300px;
+       border-radius: 50%;
+      transform: rotate(-90deg);
+}
+.isi{
+    text-align: center;
+}
+
+.kotak{
+    width: 300px;
+    height: 300px;
+    border: 3px solid rgb(43, 171, 245);
+    position: relative;
+    left: 864px;
+    top: -600px;
+}
+.container {
+    width: 1000px;
+    height: 749px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .sosmed a, span{
+  color: #E1E9F3;
+}
+.sosmed{
+  position: relative;
+  bottom: 650px;
+  left: 878px;
+}
+
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(43, 171, 245);
+    border: none;
+    color: #FFFFFF;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 19px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  /*  posision */
+  div.absolute {
+    position: relative;
+    top: -460px;
+    left: 915px;
+  }
+
+  /*sosmed button*/
+  
+
+/*button to file tentang.html Hobby  Foto Biodata*/
+.btn-group .button {
+  background-color: #4CAF50; /* Green */
+  border: 1px solid green;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+}
+
+.btn-group .button:not(:last-child) {
+  border-bottom: none; 
+}
+
+.btn-group .button:hover {
+  background-color: #3e8e41;
+}
+
+
+/* button sosmed */
+#buttonbg {
+  width: 260px;
+  margin: 10px 20px;
+  padding: 0;
+}
+
+#buttonbg li {
+  cursor: pointer;
+  height: 48px;
+  position: relative;
+  list-style-type: none;
+}
+
+#buttonbg .icon {
+  background: #D91E76 url(http://2.bp.blogspot.com/-JKB0aVYaIW0/UC-oBl8NXxI/AAAAAAAAEYA/IbgyikdkM5A/s1600/blsocial12.png) 0 0 no-repeat;
+  background-color: rgba(217, 30, 118, .42);
+  border-radius: 30px;
+  display: block;
+  color: #141414;
+  float: none;
+  height: 48px;
+  line-height: 48px;
+  margin: 5px 0;
+  position: relative;
+  text-align: left;
+  text-indent: 90px;
+  text-shadow: #333 0 1px 0;
+  white-space: nowrap;
+  width: 48px;
+  z-index: 5;
+  -webkit-transition: width .25s ease-in-out, background-color .25s ease-in-out;
+  -moz-transition: width .25s ease-in-out, background-color .25s ease-in-out;
+  -o-transition: width .25s ease-in-out, background-color .25s ease-in-out;
+  transition: width .25s ease-in-out, background-color .25s ease-in-out;
+  -webkit-box-shadow: rgba(0, 0, 0, .28) 0 2px 3px;
+  -moz-box-shadow: rgba(0,0,0, .28) 0 2px 3px;
+  -o-box-shadow: rgba(0,0,0, .28) 0 2px 3px;
+  box-shadow: rgba(0, 0, 0, .28) 0 2px 3px;
+  text-decoration: none;
+}
+
+#buttonbg span:hover {
+  visibility: hidden;
+}
+
+#buttonbg span {
+  display: block;
+  top: 15px;
+  position: absolute;
+  left: 90px;
+}
+
+#buttonbg .icon {
+  color: #fafafa;
+  overflow: hidden;
+}
+
+#buttonbg .fb {
+  background-color: rgba(45,118,185, .42);
+  background-position: 0 -382px;
+}
+
+#buttonbg .twit {
+  background-color: rgba(0, 161, 223, .42);
+  background-position: 0 -430px;
+}
+
+#buttonbg .google {
+  background-color: rgba(167, 0, 0, .42);
+  background-position: 0 -478px;
+}
+
+#buttonbg .pint {
+  background-color: rgba(204, 0, 0, .42);
+  background-position: 0 -526px;
+}
+
+#buttonbg .linked {
+  background-color: rgba(0, 87, 114, .42);
+  background-position: 0 -574px;
+}
+
+#buttonbg .deviant {
+  background-color: rgba(76, 122, 74, .42);
+  background-position: 0 -622px;
+}
+
+#buttonbg .ytube {
+  background-color: rgba(170, 0, 0, .42);
+  background-position: 0 -670px;
+}
+
+#buttonbg .rss {
+  background-color: rgba(255,109, 0, .42);
+  background-position: 0 -718px;
+}
+
+#buttonbg li:hover .icon {
+  width: 250px;
+}
+
+#buttonbg li:hover .icon {
+  background-color: #d91e76;
+}
+
+#buttonbg li:hover .fb {
+  background-color: #2d76b9;
+  background-position: 0 2px;
+}
+
+#buttonbg li:hover .twit {
+  background-color: #00A1DF;
+  background-position: 0 -46px;
+}
+
