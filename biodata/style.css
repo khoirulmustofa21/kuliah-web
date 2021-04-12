@@ -2,13 +2,13 @@
 
 body{
     background-image: url(http://designazure.com/wp-content/uploads/2018/05/ambient-background.png);
-    /*background-repeat: no-repeat;*/
+    /* background-repeat: no-repeat; */
     background-size: 100%;
   }
 h1{
     text-align: center;
     font-family: "Trirong", serif;
-    color: #E1E9F3;;
+    color: #E1E9F3;
 }
 table, th, td{
       border: 2px solid black;
